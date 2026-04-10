@@ -172,19 +172,35 @@ export default function InvitationSection() {
             className="text-[58px] font-light text-center leading-[1.05] tracking-[-0.01em] mt-1 mb-3 italic text-[#1a0d2e]"
             style={{ fontFamily: 'var(--font-cormorant), serif' }}
           >
-            {'Rianne Mitch Sereño'.split('').map((char, i, arr) => (
-              <span
-                key={i}
-                className="name-glow"
-                style={{
-                  animationDelay: `${(i / arr.length) * 1.6}s`,
-                  animationDuration: '3.5s',
-                  display: char === ' ' ? 'inline' : 'inline-block',
-                }}
-              >
-                {char === ' ' ? '\u00A0' : char}
-              </span>
-            ))}
+            {(() => {
+              const fullName = 'Rianne Mitch Sereño';
+              const chars = fullName.split('');
+              const totalChars = chars.length;
+              let charIndex = 0;
+              return fullName.split(' ').map((word, wordIdx, words) => (
+                <span key={wordIdx} style={{ display: 'inline-block', whiteSpace: 'nowrap' }}>
+                  {word.split('').map((char) => {
+                    const i = charIndex++;
+                    return (
+                      <span
+                        key={i}
+                        className="name-glow"
+                        style={{
+                          animationDelay: `${(i / totalChars) * 1.6}s`,
+                          animationDuration: '3.5s',
+                          display: 'inline-block',
+                        }}
+                      >
+                        {char}
+                      </span>
+                    );
+                  })}
+                  {wordIdx < words.length - 1 && (
+                    <span style={{ display: 'inline-block' }}>&nbsp;</span>
+                  )}
+                </span>
+              ));
+            })()}
           </div>
         </FadeUp>
 
