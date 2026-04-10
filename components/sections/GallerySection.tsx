@@ -29,7 +29,7 @@ export default function GallerySection() {
         <p
           style={{
             fontFamily: 'var(--font-cinzel), serif',
-            fontSize: '10.5px',
+            fontSize: '12px',
             letterSpacing: '0.22em',
             color: '#9a7ab8',
             textTransform: 'uppercase',

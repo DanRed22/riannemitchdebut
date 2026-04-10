@@ -18,14 +18,14 @@ export default function MapSection() {
         <p
           style={{
             fontFamily: 'var(--font-cinzel), serif',
-            fontSize: '10.5px',
+            fontSize: '12px',
             letterSpacing: '0.22em',
             color: '#9a7ab8',
             textTransform: 'uppercase',
             marginBottom: '0.6rem',
           }}
         >
-          Where to Find Us
+          Where the Celebration Unfolds
         </p>
         <h2
           style={{
@@ -55,6 +55,7 @@ export default function MapSection() {
               fontFamily: 'var(--font-im-fell), serif',
               fontStyle: 'italic',
               fontSize: '15px',
+              textAlign: 'center',
               color: '#7a5a90',
               marginBottom: '0.2rem',
             }}

@@ -6,7 +6,7 @@ import GemDivider from '@/components/GemDivider';
 
 const roses = [
   { number: 1, name: 'Tatay Lito', nickname: 'Tatay Lito' },
-  { number: 2, name: 'Tatay Roy', nickname: 'Tatay Roy' },
+  { number: 2, name: '-----', nickname: '-------' },
   { number: 3, name: 'Junior Bendebel', nickname: 'Uncle Junior' },
   { number: 4, name: 'Joseph Bendebel', nickname: 'Uncle Joseph' },
   { number: 5, name: 'Christian Dave Bendebel', nickname: 'Kuya Christian' },
@@ -74,7 +74,6 @@ const tabs: { key: Tab; label: string }[] = [
   { key: 'candles', label: '18 Candles' },
   { key: 'bluebills', label: '18 Blue Bills' },
 ];
-
 
 function CourtGrid({
   members,
@@ -178,10 +177,7 @@ export default function DebutCourtSection() {
     active === 'roses' ? roses : active === 'candles' ? candles : blueBills;
 
   return (
-    <section
-      id="court"
-      style={{ padding: '6rem 1.5rem' }}
-    >
+    <section id="court" style={{ padding: '6rem 1.5rem' }}>
       {/* header */}
       <motion.div
         initial={{ opacity: 0, y: 30 }}
@@ -194,7 +190,7 @@ export default function DebutCourtSection() {
         <p
           style={{
             fontFamily: 'var(--font-cinzel), serif',
-            fontSize: '10.5px',
+            fontSize: '12px',
             letterSpacing: '0.22em',
             color: '#9a7ab8',
             textTransform: 'uppercase',
@@ -233,6 +229,7 @@ export default function DebutCourtSection() {
         {tabs.map((t) => (
           <button
             key={t.key}
+            className="font-bold"
             onClick={() => setActive(t.key)}
             style={{
               flex: 1,
@@ -243,7 +240,7 @@ export default function DebutCourtSection() {
                 active === t.key ? '1.5px solid #7040a8' : '1px solid #e8dff5',
               cursor: 'pointer',
               fontFamily: 'var(--font-cinzel), serif',
-              fontSize: '9.5px',
+              fontSize: '1rem',
               letterSpacing: '0.16em',
               textTransform: 'uppercase',
               color: active === t.key ? '#7040a8' : '#9a7ab8',
