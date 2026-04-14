@@ -6,9 +6,15 @@ import GemDivider from '@/components/GemDivider';
 // ─── Replace these with real photo paths once available ───
 // Place photos in /public/images/gallery/ and update src values below.
 const photos: { src: string | null; caption: string }[] = [
-  { src: null, caption: 'Photo 1' },
-  { src: null, caption: 'Photo 2' },
-  { src: null, caption: 'Photo 3' },
+  {
+    src: 'https://i.ibb.co/jvhgHDK1/IMG-6862.png',
+    caption: 'Photo 1',
+  },
+  { src: 'https://i.ibb.co/zhTzybjD/IMG-6861.jpg', caption: 'Photo 2' },
+  {
+    src: 'https://i.ibb.co/hJt0DFR8/Screenshot-2026-04-14-at-10-58-52-PM.png',
+    caption: 'Photo 3',
+  },
   { src: null, caption: 'Photo 4' },
   { src: null, caption: 'Photo 5' },
   { src: null, caption: 'Photo 6' },
