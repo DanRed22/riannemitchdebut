@@ -5,66 +5,66 @@ import { motion, AnimatePresence } from 'framer-motion';
 import GemDivider from '@/components/GemDivider';
 
 const roses = [
-  { number: 1, name: 'Tatay Lito', nickname: 'Tatay Lito' },
-  { number: 2, name: '-----', nickname: '-------' },
-  { number: 3, name: 'Junior Bendebel', nickname: 'Uncle Junior' },
-  { number: 4, name: 'Joseph Bendebel', nickname: 'Uncle Joseph' },
-  { number: 5, name: 'Christian Dave Bendebel', nickname: 'Kuya Christian' },
-  { number: 6, name: 'Kent Aldrich Bendebel', nickname: 'Kuya Kent' },
-  { number: 7, name: 'John Mark Bendebel', nickname: 'Dodong' },
-  { number: 8, name: 'Zane Joseph Bendebel', nickname: 'Zane' },
-  { number: 9, name: 'Alfonso Miguel Formoso', nickname: 'Fonzie' },
-  { number: 10, name: 'Jekh Xander Cabatos', nickname: 'Xan' },
-  { number: 11, name: 'Reez Ryan Climaco', nickname: 'Reez' },
-  { number: 12, name: 'Dane Reeve Patino', nickname: 'Dane' },
-  { number: 13, name: 'Ethan Santino Navarro', nickname: 'Ethan' },
-  { number: 14, name: 'John Michael Peñas', nickname: 'Mike' },
-  { number: 15, name: 'Zabrielle Roy Cereño', nickname: 'Zab' },
-  { number: 16, name: 'Roy Naethan Cereño', nickname: 'Roy' },
-  { number: 17, name: 'Angelou B. Sereño', nickname: 'Gelou' },
-  { number: 18, name: 'Adrian B. Sereño', nickname: 'Adrian' },
+  { number: 1, name: 'Joseph Bendebel' },
+  { number: 2, name: 'Joselito Banate' },
+  { number: 3, name: 'Zane Joseph Bendebel' },
+  { number: 4, name: 'Rolando Junior Bendebel' },
+  { number: 5, name: 'Kent Bendebel' },
+  { number: 6, name: 'Orwel Nipaya' },
+  { number: 7, name: 'Roy Naethan Cereño' },
+  { number: 8, name: 'Aldric Enurables' },
+  { number: 9, name: 'Angelus Cereño' },
+  { number: 10, name: 'Ryle Salvador' },
+  { number: 11, name: 'Steven Salvador' },
+  { number: 12, name: 'Chris Kobe Benito' },
+  { number: 13, name: 'Jekh Xander Cabatos' },
+  { number: 14, name: 'Reez Ryan Climaco' },
+  { number: 15, name: 'Alfonso Miguel Formoso' },
+  { number: 16, name: 'Dane Reeve Patino' },
+  { number: 17, name: 'John Michael Peñas' },
+  { number: 18, name: 'Angelou B. Sereño' },
 ];
 
 const candles = [
-  { number: 1, name: 'Chinkee Venice Bayno', nickname: 'Ching' },
-  { number: 2, name: 'Jamaica Pearl Bendebel', nickname: 'Jam' },
-  { number: 3, name: 'Allysa Cereño', nickname: 'Lai' },
-  { number: 4, name: 'Donna Kimberly Bayno', nickname: 'Kim' },
-  { number: 5, name: 'Bebilona Siembra', nickname: 'Luna' },
-  { number: 6, name: 'Precious Angel Bendebel', nickname: 'Angel' },
-  { number: 7, name: 'Glaiza Jaye Cereño', nickname: 'Glai' },
-  { number: 8, name: 'Athena Kristia Agua', nickname: 'Tina' },
-  { number: 9, name: 'Princess Daffodel Buhion', nickname: 'Daff' },
-  { number: 10, name: 'Suzanne Nichole Pasco', nickname: 'Zane' },
-  { number: 11, name: 'Triesha Lauronal', nickname: 'Triesh' },
-  { number: 12, name: 'Andrea Glenn Kaese Margaja', nickname: 'Andy' },
-  { number: 13, name: 'Querl Mabini', nickname: 'Kerl' },
-  { number: 14, name: 'Daniellah Candice Tipdas', nickname: 'Dan' },
-  { number: 15, name: 'Ruffia Annie Clarin', nickname: 'Fia' },
-  { number: 16, name: 'Chelsea Romagos', nickname: 'Chels' },
-  { number: 17, name: 'Athena Leigh Betito', nickname: 'Tina' },
-  { number: 18, name: 'Mary Alexi Quibilan', nickname: 'Mer' },
+  { number: 1, name: 'Chinkee Venice Bayno' },
+  { number: 2, name: 'Jamaica Pearl Bendebel' },
+  { number: 3, name: 'Allyssa Cereño' },
+  { number: 4, name: 'Donna Kimberly Bayno' },
+  { number: 5, name: 'Bebilona Siembra' },
+  { number: 6, name: 'Precious Angel Bendebel' },
+  { number: 7, name: 'Glaiza Jaye Cereño' },
+  { number: 8, name: 'Athena Kristia Agua' },
+  { number: 9, name: 'Princess Daffodel Buhion' },
+  { number: 10, name: 'Triesha Lauronal' },
+  { number: 11, name: 'Suzanne Nichole Pasco' },
+  { number: 12, name: 'Daniellah Candice Tipdas' },
+  { number: 13, name: 'Querl Mabini' },
+  { number: 14, name: 'Andrea Glenn Kaese Margaja' },
+  { number: 15, name: 'Ruffia Annie Clarin' },
+  { number: 16, name: 'Athena Leigh Betito' },
+  { number: 17, name: 'Mary Alexi Quibilan' },
+  { number: 18, name: 'Chelsea Romagos' },
 ];
 
 const blueBills = [
-  { number: 1, name: 'Wivelyn Bayno', nickname: '' },
-  { number: 2, name: 'Jonabel Bendebel', nickname: '' },
-  { number: 3, name: 'Rosa Obeso', nickname: '' },
-  { number: 4, name: 'Rosalie Cereño', nickname: '' },
-  { number: 5, name: 'Lilian Siembra', nickname: '' },
-  { number: 6, name: 'Irish Bendebel', nickname: '' },
-  { number: 7, name: 'Joselito Banate', nickname: '' },
-  { number: 8, name: 'Lady Shane Nemezo', nickname: '' },
-  { number: 9, name: 'CJ Bustamante', nickname: '' },
-  { number: 10, name: 'Rhea Christy Cereño', nickname: '' },
-  { number: 11, name: 'Lucelle Agua', nickname: '' },
-  { number: 12, name: 'Kharen Cabatos', nickname: '' },
-  { number: 13, name: 'Jesilyn Climaco', nickname: '' },
-  { number: 14, name: 'Thyssen Recla', nickname: '' },
-  { number: 15, name: 'Angelou Sereño', nickname: '' },
-  { number: 16, name: 'Jamaica Pearl Bendebel', nickname: '' },
-  { number: 17, name: 'Chinkee Venice Bayno', nickname: '' },
-  { number: 18, name: 'Donna Kimberly Bayno', nickname: '' },
+  { number: 1, name: 'Wivelyn Bayno' },
+  { number: 2, name: 'Jonabel Bendebel' },
+  { number: 3, name: 'Rosie Obeso' },
+  { number: 4, name: 'Rosalie Cereño' },
+  { number: 5, name: 'Lilian Siembra' },
+  { number: 6, name: 'Irish Bendebel' },
+  { number: 7, name: 'Joselito Banate' },
+  { number: 8, name: 'Lady Shane Nemenzo' },
+  { number: 9, name: 'Cyra Joriel Bustamante' },
+  { number: 10, name: 'Rhea Christy Cereño' },
+  { number: 11, name: 'Lucelle Agua' },
+  { number: 12, name: 'Kharen Cabatos' },
+  { number: 13, name: 'Jesilyn Climaco' },
+  { number: 14, name: 'Thyssen Recla' },
+  { number: 15, name: 'Angelou Sereño' },
+  { number: 16, name: 'Jamaica Pearl Bendebel' },
+  { number: 17, name: 'Chinkee Venice Bayno' },
+  { number: 18, name: 'Donna Kimberly Bayno' },
 ];
 
 type Tab = 'roses' | 'candles' | 'bluebills';
@@ -78,7 +78,7 @@ const tabs: { key: Tab; label: string }[] = [
 function CourtGrid({
   members,
 }: {
-  members: { number: number; name: string; nickname: string }[];
+  members: { number: number; name: string }[];
 }) {
   return (
     <motion.div
@@ -123,47 +123,18 @@ function CourtGrid({
           >
             {String(m.number).padStart(2, '0')}
           </p>
-          {m.nickname ? (
-            <>
-              <p
-                style={{
-                  fontFamily: 'var(--font-cormorant), serif',
-                  fontStyle: 'italic',
-                  fontSize: '20px',
-                  fontWeight: 300,
-                  color: '#2d1545',
-                  lineHeight: 1.15,
-                }}
-              >
-                {m.nickname}
-              </p>
-              <p
-                style={{
-                  fontFamily: 'var(--font-cinzel), serif',
-                  fontSize: '8px',
-                  letterSpacing: '0.1em',
-                  color: '#9a7ab8',
-                  marginTop: '0.2rem',
-                  lineHeight: 1.4,
-                }}
-              >
-                {m.name}
-              </p>
-            </>
-          ) : (
-            <p
-              style={{
-                fontFamily: 'var(--font-cormorant), serif',
-                fontStyle: 'italic',
-                fontSize: '17px',
-                fontWeight: 300,
-                color: '#2d1545',
-                lineHeight: 1.2,
-              }}
-            >
-              {m.name}
-            </p>
-          )}
+          <p
+            style={{
+              fontFamily: 'var(--font-cormorant), serif',
+              fontStyle: 'italic',
+              fontSize: '17px',
+              fontWeight: 300,
+              color: '#2d1545',
+              lineHeight: 1.2,
+            }}
+          >
+            {m.name}
+          </p>
         </motion.div>
       ))}
     </motion.div>
@@ -315,9 +286,10 @@ export default function DebutCourtSection() {
             lineHeight: 1.8,
           }}
         >
-          All dear guests bringing gifts will be asked to line up
+          All of the debutante’s batchmates bringing gifts
+          <br /> will be asked to line up and share a short message.
+          <br /> And for those who also wish to share, they may also line up.
           <br />
-          and share a short message describing their gift in one word.
         </p>
       </motion.div>
 

@@ -9,6 +9,7 @@ const links = [
   { label: 'Gallery', href: '#gallery' },
   { label: 'Court', href: '#court' },
   { label: 'Dress Code', href: '#dresscode' },
+  { label: 'Wish List', href: '#wishlist' },
   { label: 'Venue', href: '#venue' },
 ];
 

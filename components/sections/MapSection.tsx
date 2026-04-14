@@ -115,7 +115,7 @@ export default function MapSection() {
           {/* photo */}
           {/* eslint-disable-next-line @next/next/no-img-element */}
           <img
-            src="https://lh3.googleusercontent.com/gps-cs-s/AHVAwep8rCCO8y7wvDHw2lHHibmzhmuB1fVFZdPAYHZzb9psDBb6PiNKeJ604ytEQ464Pi0uuzElb48ezG-wIuhiGnIGAaCXnd75QFbd94DYlYcZyWU7xjTQtAx8tWCxcq56ie9zKK0e=w1200-h860-k-no"
+            src="https://i.ibb.co/W4w4Dskh/unnamed.webp"
             alt="West Cebu Guesthouse"
             style={{
               width: '100%',

@@ -5,57 +5,52 @@ import GemDivider from '@/components/GemDivider';
 
 const events = [
   {
-    time: '4:30 PM',
+    time: '----',
     title: 'Cocktail Hour',
     desc: 'Guest arrival & welcome drinks',
   },
   {
-    time: '5:00 PM',
+    time: '----',
     title: 'Grand Entrance',
     desc: 'The debutante makes her entrance',
   },
   {
-    time: '5:10 PM',
-    title: '18 Roses',
-    desc: 'The ceremony of eighteen roses',
-  },
-  {
-    time: '5:35 PM',
+    time: '----',
     title: '18 Candles',
     desc: 'The ceremony of eighteen candles',
   },
   {
-    time: '5:55 PM',
+    time: '----',
+    title: '18 Roses',
+    desc: 'The ceremony of eighteen roses',
+  },
+  {
+    time: '----',
     title: '18 Blue Bills',
     desc: "Blessings and abundance for the debutante's journey ahead",
   },
+  { time: '----', title: 'Dinner is Served', desc: 'A celebration feast' },
   {
-    time: '6:15 PM',
-    title: 'Cotillion de Honor',
-    desc: 'The grand debut waltz',
-  },
-  { time: '6:50 PM', title: 'Dinner is Served', desc: 'A celebration feast' },
-  {
-    time: '7:05 PM',
-    title: '🗝️ Surprise Quiz',
-    desc: 'How well do you know the debutante? Guests take the hot seat!',
-  },
-  {
-    time: '7:20 PM',
-    title: 'Singing Performance',
-    desc: 'A special song from the heart — performed by the celebrant herself',
-  },
-  {
-    time: '7:30 PM',
+    time: '----',
     title: '🗝️ Treasures',
     desc: 'Guests bearing gifts share a single word describing their present',
   },
   {
-    time: '7:45 PM',
+    time: '----',
+    title: '🗝️ Surprise Quiz',
+    desc: 'How well do you know the debutante? Guests take the hot seat!',
+  },
+  {
+    time: '----',
+    title: 'Singing Performance',
+    desc: 'A special song from the heart — performed by the celebrant herself',
+  },
+  {
+    time: '----',
     title: 'Toast & Messages',
     desc: 'Heartfelt words for the debutante',
   },
-  { time: '8:00 PM', title: 'Grand Finale', desc: 'End of a magical evening' },
+  { time: '----', title: 'Grand Finale', desc: 'End of a magical evening' },
 ];
 
 export default function ProgramSection() {

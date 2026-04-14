@@ -5,6 +5,7 @@ import GallerySection from "@/components/sections/GallerySection";
 import DebutCourtSection from "@/components/sections/DebutCourtSection";
 import DressCodeSection from "@/components/sections/DressCodeSection";
 import MapSection from "@/components/sections/MapSection";
+import WishlistSection from "@/components/sections/WishlistSection";
 
 export default function Home() {
   return (
@@ -15,6 +16,7 @@ export default function Home() {
       <GallerySection />
       <DebutCourtSection />
       <DressCodeSection />
+      <WishlistSection />
       <MapSection />
     </main>
   );
