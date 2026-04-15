@@ -29,6 +29,11 @@ const events = [
     title: '18 Blue Bills',
     desc: "Blessings and abundance for the debutante's journey ahead",
   },
+  {
+    time: '----',
+    title: 'Blessing of the Food',
+    desc: 'A moment of gratitude for the meal to come to be lead by Jonnabel O. Bendebel',
+  },
   { time: '----', title: 'Dinner is Served', desc: 'A celebration feast' },
   {
     time: '----',
